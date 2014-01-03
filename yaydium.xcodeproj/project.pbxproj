@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		E71B2BCC18764C15007DEDC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2BCB18764C15007DEDC4 /* Cocoa.framework */; };
 		E71B2BD618764C15007DEDC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E71B2BD418764C15007DEDC4 /* InfoPlist.strings */; };
+		E71B2BE3187656D6007DEDC4 /* YaydiumPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BE2187656D6007DEDC4 /* YaydiumPlugin.m */; };
+		E71B2BE8187662F6007DEDC4 /* PurpleYammerService.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BE7187662F6007DEDC4 /* PurpleYammerService.m */; };
+		E71B2BEB1876657F007DEDC4 /* PurpleYammerAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BEA1876657F007DEDC4 /* PurpleYammerAccount.m */; };
+		E71B2BEE18766970007DEDC4 /* YammerAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BED18766970007DEDC4 /* YammerAccountViewController.m */; };
+		E71B2C0B1876721F007DEDC4 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C061876721F007DEDC4 /* Adium.framework */; };
+		E71B2C0C1876721F007DEDC4 /* AdiumLibpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C071876721F007DEDC4 /* AdiumLibpurple.framework */; };
+		E71B2C0D1876721F007DEDC4 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C081876721F007DEDC4 /* AIUtilities.framework */; };
+		E71B2C0E1876721F007DEDC4 /* libglib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C091876721F007DEDC4 /* libglib.framework */; };
+		E71B2C0F1876721F007DEDC4 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C0A1876721F007DEDC4 /* libpurple.framework */; };
+		E71B2C1118768FF7007DEDC4 /* yaydium-small.png in Resources */ = {isa = PBXBuildFile; fileRef = E71B2C1018768FF7007DEDC4 /* yaydium-small.png */; };
+		E71B2C1518769EB0007DEDC4 /* yaydium.png in Resources */ = {isa = PBXBuildFile; fileRef = E71B2C1418769EB0007DEDC4 /* yaydium.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E71B2BC818764C15007DEDC4 /* yaydium.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yaydium.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71B2BC818764C15007DEDC4 /* yaydium.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yaydium.AdiumPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71B2BCB18764C15007DEDC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E71B2BCE18764C15007DEDC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E71B2BCF18764C15007DEDC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -20,6 +31,21 @@
 		E71B2BD318764C15007DEDC4 /* yaydium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yaydium-Info.plist"; sourceTree = "<group>"; };
 		E71B2BD518764C15007DEDC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E71B2BD718764C15007DEDC4 /* yaydium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yaydium-Prefix.pch"; sourceTree = "<group>"; };
+		E71B2BE1187656D6007DEDC4 /* YaydiumPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YaydiumPlugin.h; sourceTree = "<group>"; };
+		E71B2BE2187656D6007DEDC4 /* YaydiumPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YaydiumPlugin.m; sourceTree = "<group>"; };
+		E71B2BE6187662F6007DEDC4 /* PurpleYammerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleYammerService.h; sourceTree = "<group>"; };
+		E71B2BE7187662F6007DEDC4 /* PurpleYammerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleYammerService.m; sourceTree = "<group>"; };
+		E71B2BE91876657F007DEDC4 /* PurpleYammerAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleYammerAccount.h; sourceTree = "<group>"; };
+		E71B2BEA1876657F007DEDC4 /* PurpleYammerAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleYammerAccount.m; sourceTree = "<group>"; };
+		E71B2BEC18766970007DEDC4 /* YammerAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YammerAccountViewController.h; sourceTree = "<group>"; };
+		E71B2BED18766970007DEDC4 /* YammerAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YammerAccountViewController.m; sourceTree = "<group>"; };
+		E71B2C061876721F007DEDC4 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = Frameworks/Adium.framework; sourceTree = "<group>"; };
+		E71B2C071876721F007DEDC4 /* AdiumLibpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdiumLibpurple.framework; path = Frameworks/AdiumLibpurple.framework; sourceTree = "<group>"; };
+		E71B2C081876721F007DEDC4 /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = Frameworks/AIUtilities.framework; sourceTree = "<group>"; };
+		E71B2C091876721F007DEDC4 /* libglib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libglib.framework; path = Frameworks/libglib.framework; sourceTree = "<group>"; };
+		E71B2C0A1876721F007DEDC4 /* libpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libpurple.framework; path = Frameworks/libpurple.framework; sourceTree = "<group>"; };
+		E71B2C1018768FF7007DEDC4 /* yaydium-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yaydium-small.png"; path = "Resources/yaydium-small.png"; sourceTree = SOURCE_ROOT; };
+		E71B2C1418769EB0007DEDC4 /* yaydium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yaydium.png; path = Resources/yaydium.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +53,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71B2C0C1876721F007DEDC4 /* AdiumLibpurple.framework in Frameworks */,
 				E71B2BCC18764C15007DEDC4 /* Cocoa.framework in Frameworks */,
+				E71B2C0F1876721F007DEDC4 /* libpurple.framework in Frameworks */,
+				E71B2C0B1876721F007DEDC4 /* Adium.framework in Frameworks */,
+				E71B2C0D1876721F007DEDC4 /* AIUtilities.framework in Frameworks */,
+				E71B2C0E1876721F007DEDC4 /* libglib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +68,7 @@
 		E71B2BBF18764C15007DEDC4 = {
 			isa = PBXGroup;
 			children = (
+				E71B2C1318769E92007DEDC4 /* Resources */,
 				E71B2BD118764C15007DEDC4 /* yaydium */,
 				E71B2BCA18764C15007DEDC4 /* Frameworks */,
 				E71B2BC918764C15007DEDC4 /* Products */,
@@ -46,7 +78,7 @@
 		E71B2BC918764C15007DEDC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E71B2BC818764C15007DEDC4 /* yaydium.bundle */,
+				E71B2BC818764C15007DEDC4 /* yaydium.AdiumPlugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +86,7 @@
 		E71B2BCA18764C15007DEDC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E71B2C051876720B007DEDC4 /* Adium Frameworks */,
 				E71B2BCB18764C15007DEDC4 /* Cocoa.framework */,
 				E71B2BCD18764C15007DEDC4 /* Other Frameworks */,
 			);
@@ -74,6 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				E71B2BD218764C15007DEDC4 /* Supporting Files */,
+				E71B2BE1187656D6007DEDC4 /* YaydiumPlugin.h */,
+				E71B2BE2187656D6007DEDC4 /* YaydiumPlugin.m */,
+				E71B2BE6187662F6007DEDC4 /* PurpleYammerService.h */,
+				E71B2BE7187662F6007DEDC4 /* PurpleYammerService.m */,
+				E71B2BE91876657F007DEDC4 /* PurpleYammerAccount.h */,
+				E71B2BEA1876657F007DEDC4 /* PurpleYammerAccount.m */,
+				E71B2BEC18766970007DEDC4 /* YammerAccountViewController.h */,
+				E71B2BED18766970007DEDC4 /* YammerAccountViewController.m */,
 			);
 			path = yaydium;
 			sourceTree = "<group>";
@@ -86,6 +127,27 @@
 				E71B2BD718764C15007DEDC4 /* yaydium-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E71B2C051876720B007DEDC4 /* Adium Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71B2C061876721F007DEDC4 /* Adium.framework */,
+				E71B2C071876721F007DEDC4 /* AdiumLibpurple.framework */,
+				E71B2C081876721F007DEDC4 /* AIUtilities.framework */,
+				E71B2C091876721F007DEDC4 /* libglib.framework */,
+				E71B2C0A1876721F007DEDC4 /* libpurple.framework */,
+			);
+			name = "Adium Frameworks";
+			sourceTree = "<group>";
+		};
+		E71B2C1318769E92007DEDC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E71B2C1418769EB0007DEDC4 /* yaydium.png */,
+				E71B2C1018768FF7007DEDC4 /* yaydium-small.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +167,7 @@
 			);
 			name = yaydium;
 			productName = yaydium;
-			productReference = E71B2BC818764C15007DEDC4 /* yaydium.bundle */;
+			productReference = E71B2BC818764C15007DEDC4 /* yaydium.AdiumPlugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -138,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71B2C1118768FF7007DEDC4 /* yaydium-small.png in Resources */,
+				E71B2C1518769EB0007DEDC4 /* yaydium.png in Resources */,
 				E71B2BD618764C15007DEDC4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71B2BE8187662F6007DEDC4 /* PurpleYammerService.m in Sources */,
+				E71B2BEB1876657F007DEDC4 /* PurpleYammerAccount.m in Sources */,
+				E71B2BE3187656D6007DEDC4 /* YaydiumPlugin.m in Sources */,
+				E71B2BEE18766970007DEDC4 /* YammerAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,12 +306,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bremeika/workspace/yaydium,
+					/Users/bremeika/workspace/yaydium/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yaydium/yaydium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Frameworks/libglib.framework/Headers\"",
+				);
 				INFOPLIST_FILE = "yaydium/yaydium-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Debug;
 		};
@@ -251,12 +329,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/bremeika/workspace/yaydium,
+					/Users/bremeika/workspace/yaydium/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yaydium/yaydium-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Frameworks/libglib.framework/Headers\"",
+				);
 				INFOPLIST_FILE = "yaydium/yaydium-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Release;
 		};
@@ -279,6 +367,7 @@
 				E71B2BDC18764C15007DEDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
