@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71B2BCC18764C15007DEDC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2BCB18764C15007DEDC4 /* Cocoa.framework */; };
+		E71B2BD618764C15007DEDC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E71B2BD418764C15007DEDC4 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E71B2BC818764C15007DEDC4 /* yaydium.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yaydium.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71B2BCB18764C15007DEDC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E71B2BCE18764C15007DEDC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E71B2BCF18764C15007DEDC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E71B2BD018764C15007DEDC4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E71B2BD318764C15007DEDC4 /* yaydium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yaydium-Info.plist"; sourceTree = "<group>"; };
+		E71B2BD518764C15007DEDC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E71B2BD718764C15007DEDC4 /* yaydium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yaydium-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71B2BC518764C15007DEDC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71B2BCC18764C15007DEDC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E71B2BBF18764C15007DEDC4 = {
+			isa = PBXGroup;
+			children = (
+				E71B2BD118764C15007DEDC4 /* yaydium */,
+				E71B2BCA18764C15007DEDC4 /* Frameworks */,
+				E71B2BC918764C15007DEDC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E71B2BC918764C15007DEDC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E71B2BC818764C15007DEDC4 /* yaydium.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E71B2BCA18764C15007DEDC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71B2BCB18764C15007DEDC4 /* Cocoa.framework */,
+				E71B2BCD18764C15007DEDC4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71B2BCD18764C15007DEDC4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71B2BCE18764C15007DEDC4 /* Foundation.framework */,
+				E71B2BCF18764C15007DEDC4 /* CoreData.framework */,
+				E71B2BD018764C15007DEDC4 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E71B2BD118764C15007DEDC4 /* yaydium */ = {
+			isa = PBXGroup;
+			children = (
+				E71B2BD218764C15007DEDC4 /* Supporting Files */,
+			);
+			path = yaydium;
+			sourceTree = "<group>";
+		};
+		E71B2BD218764C15007DEDC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E71B2BD318764C15007DEDC4 /* yaydium-Info.plist */,
+				E71B2BD418764C15007DEDC4 /* InfoPlist.strings */,
+				E71B2BD718764C15007DEDC4 /* yaydium-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E71B2BC718764C15007DEDC4 /* yaydium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71B2BDA18764C15007DEDC4 /* Build configuration list for PBXNativeTarget "yaydium" */;
+			buildPhases = (
+				E71B2BC418764C15007DEDC4 /* Sources */,
+				E71B2BC518764C15007DEDC4 /* Frameworks */,
+				E71B2BC618764C15007DEDC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yaydium;
+			productName = yaydium;
+			productReference = E71B2BC818764C15007DEDC4 /* yaydium.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E71B2BC018764C15007DEDC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = E71B2BC318764C15007DEDC4 /* Build configuration list for PBXProject "yaydium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E71B2BBF18764C15007DEDC4;
+			productRefGroup = E71B2BC918764C15007DEDC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E71B2BC718764C15007DEDC4 /* yaydium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E71B2BC618764C15007DEDC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71B2BD618764C15007DEDC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71B2BC418764C15007DEDC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E71B2BD418764C15007DEDC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E71B2BD518764C15007DEDC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E71B2BD818764C15007DEDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E71B2BD918764C15007DEDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E71B2BDB18764C15007DEDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yaydium/yaydium-Prefix.pch";
+				INFOPLIST_FILE = "yaydium/yaydium-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E71B2BDC18764C15007DEDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yaydium/yaydium-Prefix.pch";
+				INFOPLIST_FILE = "yaydium/yaydium-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71B2BC318764C15007DEDC4 /* Build configuration list for PBXProject "yaydium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71B2BD818764C15007DEDC4 /* Debug */,
+				E71B2BD918764C15007DEDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71B2BDA18764C15007DEDC4 /* Build configuration list for PBXNativeTarget "yaydium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71B2BDB18764C15007DEDC4 /* Debug */,
+				E71B2BDC18764C15007DEDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E71B2BC018764C15007DEDC4 /* Project object */;
+}
