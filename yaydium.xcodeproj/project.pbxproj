@@ -12,7 +12,6 @@
 		E71B2BE3187656D6007DEDC4 /* YaydiumPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BE2187656D6007DEDC4 /* YaydiumPlugin.m */; };
 		E71B2BE8187662F6007DEDC4 /* PurpleYammerService.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BE7187662F6007DEDC4 /* PurpleYammerService.m */; };
 		E71B2BEB1876657F007DEDC4 /* PurpleYammerAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BEA1876657F007DEDC4 /* PurpleYammerAccount.m */; };
-		E71B2BEE18766970007DEDC4 /* YammerAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B2BED18766970007DEDC4 /* YammerAccountViewController.m */; };
 		E71B2C0B1876721F007DEDC4 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C061876721F007DEDC4 /* Adium.framework */; };
 		E71B2C0C1876721F007DEDC4 /* AdiumLibpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C071876721F007DEDC4 /* AdiumLibpurple.framework */; };
 		E71B2C0D1876721F007DEDC4 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C081876721F007DEDC4 /* AIUtilities.framework */; };
@@ -20,6 +19,8 @@
 		E71B2C0F1876721F007DEDC4 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C0A1876721F007DEDC4 /* libpurple.framework */; };
 		E71B2C1118768FF7007DEDC4 /* yaydium-small.png in Resources */ = {isa = PBXBuildFile; fileRef = E71B2C1018768FF7007DEDC4 /* yaydium-small.png */; };
 		E71B2C1518769EB0007DEDC4 /* yaydium.png in Resources */ = {isa = PBXBuildFile; fileRef = E71B2C1418769EB0007DEDC4 /* yaydium.png */; };
+		E775A1611876C0C700DEF675 /* YammerAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E775A1601876C0C700DEF675 /* YammerAccountViewController.m */; };
+		E7AEBBEF1876ADEE0099EDBD /* YammerAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7AEBBEE1876ADEE0099EDBD /* YammerAccountView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +38,6 @@
 		E71B2BE7187662F6007DEDC4 /* PurpleYammerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleYammerService.m; sourceTree = "<group>"; };
 		E71B2BE91876657F007DEDC4 /* PurpleYammerAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleYammerAccount.h; sourceTree = "<group>"; };
 		E71B2BEA1876657F007DEDC4 /* PurpleYammerAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleYammerAccount.m; sourceTree = "<group>"; };
-		E71B2BEC18766970007DEDC4 /* YammerAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YammerAccountViewController.h; sourceTree = "<group>"; };
-		E71B2BED18766970007DEDC4 /* YammerAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YammerAccountViewController.m; sourceTree = "<group>"; };
 		E71B2C061876721F007DEDC4 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = Frameworks/Adium.framework; sourceTree = "<group>"; };
 		E71B2C071876721F007DEDC4 /* AdiumLibpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdiumLibpurple.framework; path = Frameworks/AdiumLibpurple.framework; sourceTree = "<group>"; };
 		E71B2C081876721F007DEDC4 /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = Frameworks/AIUtilities.framework; sourceTree = "<group>"; };
@@ -46,6 +45,9 @@
 		E71B2C0A1876721F007DEDC4 /* libpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libpurple.framework; path = Frameworks/libpurple.framework; sourceTree = "<group>"; };
 		E71B2C1018768FF7007DEDC4 /* yaydium-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yaydium-small.png"; path = "Resources/yaydium-small.png"; sourceTree = SOURCE_ROOT; };
 		E71B2C1418769EB0007DEDC4 /* yaydium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yaydium.png; path = Resources/yaydium.png; sourceTree = "<group>"; };
+		E775A15F1876C0C700DEF675 /* YammerAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YammerAccountViewController.h; sourceTree = "<group>"; };
+		E775A1601876C0C700DEF675 /* YammerAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YammerAccountViewController.m; sourceTree = "<group>"; };
+		E7AEBBEE1876ADEE0099EDBD /* YammerAccountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YammerAccountView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +115,9 @@
 				E71B2BE7187662F6007DEDC4 /* PurpleYammerService.m */,
 				E71B2BE91876657F007DEDC4 /* PurpleYammerAccount.h */,
 				E71B2BEA1876657F007DEDC4 /* PurpleYammerAccount.m */,
-				E71B2BEC18766970007DEDC4 /* YammerAccountViewController.h */,
-				E71B2BED18766970007DEDC4 /* YammerAccountViewController.m */,
+				E775A15F1876C0C700DEF675 /* YammerAccountViewController.h */,
+				E775A1601876C0C700DEF675 /* YammerAccountViewController.m */,
+				E7AEBBEE1876ADEE0099EDBD /* YammerAccountView.xib */,
 			);
 			path = yaydium;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71B2C1118768FF7007DEDC4 /* yaydium-small.png in Resources */,
+				E7AEBBEF1876ADEE0099EDBD /* YammerAccountView.xib in Resources */,
 				E71B2C1518769EB0007DEDC4 /* yaydium.png in Resources */,
 				E71B2BD618764C15007DEDC4 /* InfoPlist.strings in Resources */,
 			);
@@ -213,10 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E775A1611876C0C700DEF675 /* YammerAccountViewController.m in Sources */,
 				E71B2BE8187662F6007DEDC4 /* PurpleYammerService.m in Sources */,
 				E71B2BEB1876657F007DEDC4 /* PurpleYammerAccount.m in Sources */,
 				E71B2BE3187656D6007DEDC4 /* YaydiumPlugin.m in Sources */,
-				E71B2BEE18766970007DEDC4 /* YammerAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

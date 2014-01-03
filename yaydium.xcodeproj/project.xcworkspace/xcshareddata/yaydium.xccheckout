@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1CCF10F3-4CBE-4BA8-A51D-71439CB13A6B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>yaydium</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9964E411-A92F-41CF-9C29-F330C9143B4F</key>
+		<string>ssh://github.com/foobarfighter/yaydium.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>yaydium.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9964E411-A92F-41CF-9C29-F330C9143B4F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/foobarfighter/yaydium.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9964E411-A92F-41CF-9C29-F330C9143B4F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9964E411-A92F-41CF-9C29-F330C9143B4F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yaydium</string>
+		</dict>
+	</array>
+</dict>
+</plist>
