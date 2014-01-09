@@ -19,6 +19,36 @@
 		E71B2C0F1876721F007DEDC4 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71B2C0A1876721F007DEDC4 /* libpurple.framework */; };
 		E71B2C1118768FF7007DEDC4 /* yaydium-small.png in Resources */ = {isa = PBXBuildFile; fileRef = E71B2C1018768FF7007DEDC4 /* yaydium-small.png */; };
 		E71B2C1518769EB0007DEDC4 /* yaydium.png in Resources */ = {isa = PBXBuildFile; fileRef = E71B2C1418769EB0007DEDC4 /* yaydium.png */; };
+		E76A6A7E187E7C4F0005931A /* prplyammer.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6A77187E7C4F0005931A /* prplyammer.c */; };
+		E76A6A7F187E7C4F0005931A /* yammer_account.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6A78187E7C4F0005931A /* yammer_account.c */; };
+		E76A6A80187E7C4F0005931A /* yammer_api.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6A79187E7C4F0005931A /* yammer_api.c */; };
+		E76A6A81187E7C4F0005931A /* yammer_chat_connection.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6A7A187E7C4F0005931A /* yammer_chat_connection.c */; };
+		E76A6A82187E7C4F0005931A /* yammer_request.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6A7B187E7C4F0005931A /* yammer_request.c */; };
+		E76A6A83187E7C4F0005931A /* yammer_response.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6A7C187E7C4F0005931A /* yammer_response.c */; };
+		E76A6A84187E7C4F0005931A /* yammer_session.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6A7D187E7C4F0005931A /* yammer_session.c */; };
+		E76A6AB4187E7CEF0005931A /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA1187E7CEF0005931A /* channel.c */; };
+		E76A6AB5187E7CEF0005931A /* cometd.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA2187E7CEF0005931A /* cometd.c */; };
+		E76A6AB6187E7CEF0005931A /* conn.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA3187E7CEF0005931A /* conn.c */; };
+		E76A6AB7187E7CEF0005931A /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA4187E7CEF0005931A /* error.c */; };
+		E76A6AB8187E7CEF0005931A /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA5187E7CEF0005931A /* event.c */; };
+		E76A6AB9187E7CEF0005931A /* ext.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA6187E7CEF0005931A /* ext.c */; };
+		E76A6ABA187E7CEF0005931A /* logger.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA8187E7CEF0005931A /* logger.c */; };
+		E76A6ABB187E7CEF0005931A /* yammer.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AA9187E7CEF0005931A /* yammer.c */; };
+		E76A6ABC187E7CEF0005931A /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AAA187E7CEF0005931A /* http.c */; };
+		E76A6ABD187E7CEF0005931A /* inbox.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AAB187E7CEF0005931A /* inbox.c */; };
+		E76A6ABE187E7CEF0005931A /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AAC187E7CEF0005931A /* json.c */; };
+		E76A6ABF187E7CEF0005931A /* loop.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AAD187E7CEF0005931A /* loop.c */; };
+		E76A6AC0187E7CEF0005931A /* gthread.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AAF187E7CEF0005931A /* gthread.c */; };
+		E76A6AC1187E7CEF0005931A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AB0187E7CEF0005931A /* main.c */; };
+		E76A6AC2187E7CEF0005931A /* msg.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AB1187E7CEF0005931A /* msg.c */; };
+		E76A6AC3187E7CEF0005931A /* transport_long_polling.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AB2187E7CEF0005931A /* transport_long_polling.c */; };
+		E76A6AC4187E7CEF0005931A /* transport.c in Sources */ = {isa = PBXBuildFile; fileRef = E76A6AB3187E7CEF0005931A /* transport.c */; };
+		E76A6AC8187E80D10005931A /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A6AC7187E80D10005931A /* libcurl.dylib */; };
+		E76A6ACC187E81310005931A /* libgmodule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A6AC9187E81310005931A /* libgmodule.framework */; };
+		E76A6ACD187E81310005931A /* libgobject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A6ACA187E81310005931A /* libgobject.framework */; };
+		E76A6ACE187E81310005931A /* libgthread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A6ACB187E81310005931A /* libgthread.framework */; };
+		E76A7174187EAE540005931A /* libjson-glib-1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A7173187EAE540005931A /* libjson-glib-1.0.a */; };
+		E76A7176187EB1000005931A /* libgio-2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A7175187EB1000005931A /* libgio-2.0.a */; };
 		E775A1611876C0C700DEF675 /* YammerAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E775A1601876C0C700DEF675 /* YammerAccountViewController.m */; };
 		E7AEBBEF1876ADEE0099EDBD /* YammerAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7AEBBEE1876ADEE0099EDBD /* YammerAccountView.xib */; };
 /* End PBXBuildFile section */
@@ -45,6 +75,74 @@
 		E71B2C0A1876721F007DEDC4 /* libpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libpurple.framework; path = Frameworks/libpurple.framework; sourceTree = "<group>"; };
 		E71B2C1018768FF7007DEDC4 /* yaydium-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yaydium-small.png"; path = "Resources/yaydium-small.png"; sourceTree = SOURCE_ROOT; };
 		E71B2C1418769EB0007DEDC4 /* yaydium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yaydium.png; path = Resources/yaydium.png; sourceTree = "<group>"; };
+		E76A6A77187E7C4F0005931A /* prplyammer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = prplyammer.c; path = ../prplyammer/src/prplyammer.c; sourceTree = "<group>"; };
+		E76A6A78187E7C4F0005931A /* yammer_account.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yammer_account.c; path = ../prplyammer/src/yammer_account.c; sourceTree = "<group>"; };
+		E76A6A79187E7C4F0005931A /* yammer_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yammer_api.c; path = ../prplyammer/src/yammer_api.c; sourceTree = "<group>"; };
+		E76A6A7A187E7C4F0005931A /* yammer_chat_connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yammer_chat_connection.c; path = ../prplyammer/src/yammer_chat_connection.c; sourceTree = "<group>"; };
+		E76A6A7B187E7C4F0005931A /* yammer_request.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yammer_request.c; path = ../prplyammer/src/yammer_request.c; sourceTree = "<group>"; };
+		E76A6A7C187E7C4F0005931A /* yammer_response.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yammer_response.c; path = ../prplyammer/src/yammer_response.c; sourceTree = "<group>"; };
+		E76A6A7D187E7C4F0005931A /* yammer_session.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yammer_session.c; path = ../prplyammer/src/yammer_session.c; sourceTree = "<group>"; };
+		E76A6A87187E7C5D0005931A /* typedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typedef.h; sourceTree = "<group>"; };
+		E76A6A88187E7C5D0005931A /* yammer_account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yammer_account.h; sourceTree = "<group>"; };
+		E76A6A89187E7C5D0005931A /* yammer_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yammer_api.h; sourceTree = "<group>"; };
+		E76A6A8A187E7C5D0005931A /* yammer_request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yammer_request.h; sourceTree = "<group>"; };
+		E76A6A8B187E7C5D0005931A /* yammer_response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yammer_response.h; sourceTree = "<group>"; };
+		E76A6A8C187E7C5D0005931A /* yammer_session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yammer_session.h; sourceTree = "<group>"; };
+		E76A6A8D187E7C5D0005931A /* prplyammer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prplyammer.h; sourceTree = "<group>"; };
+		E76A6A91187E7CDA0005931A /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
+		E76A6A92187E7CDA0005931A /* conn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conn.h; sourceTree = "<group>"; };
+		E76A6A93187E7CDA0005931A /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		E76A6A94187E7CDA0005931A /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		E76A6A95187E7CDA0005931A /* ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext.h; sourceTree = "<group>"; };
+		E76A6A97187E7CDA0005931A /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		E76A6A98187E7CDA0005931A /* yammer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yammer.h; sourceTree = "<group>"; };
+		E76A6A99187E7CDA0005931A /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		E76A6A9A187E7CDA0005931A /* inbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inbox.h; sourceTree = "<group>"; };
+		E76A6A9B187E7CDA0005931A /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		E76A6A9C187E7CDA0005931A /* loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loop.h; sourceTree = "<group>"; };
+		E76A6A9D187E7CDA0005931A /* msg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msg.h; sourceTree = "<group>"; };
+		E76A6A9E187E7CDA0005931A /* transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transport.h; sourceTree = "<group>"; };
+		E76A6A9F187E7CDA0005931A /* transport_long_polling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transport_long_polling.h; sourceTree = "<group>"; };
+		E76A6AA0187E7CDA0005931A /* cometd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cometd.h; sourceTree = "<group>"; };
+		E76A6AA1187E7CEF0005931A /* channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = channel.c; path = ../libcometd/src/channel.c; sourceTree = "<group>"; };
+		E76A6AA2187E7CEF0005931A /* cometd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cometd.c; path = ../libcometd/src/cometd.c; sourceTree = "<group>"; };
+		E76A6AA3187E7CEF0005931A /* conn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = conn.c; path = ../libcometd/src/conn.c; sourceTree = "<group>"; };
+		E76A6AA4187E7CEF0005931A /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = error.c; path = ../libcometd/src/error.c; sourceTree = "<group>"; };
+		E76A6AA5187E7CEF0005931A /* event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = event.c; path = ../libcometd/src/event.c; sourceTree = "<group>"; };
+		E76A6AA6187E7CEF0005931A /* ext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ext.c; path = ../libcometd/src/ext.c; sourceTree = "<group>"; };
+		E76A6AA8187E7CEF0005931A /* logger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logger.c; sourceTree = "<group>"; };
+		E76A6AA9187E7CEF0005931A /* yammer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yammer.c; sourceTree = "<group>"; };
+		E76A6AAA187E7CEF0005931A /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http.c; path = ../libcometd/src/http.c; sourceTree = "<group>"; };
+		E76A6AAB187E7CEF0005931A /* inbox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inbox.c; path = ../libcometd/src/inbox.c; sourceTree = "<group>"; };
+		E76A6AAC187E7CEF0005931A /* json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json.c; path = ../libcometd/src/json.c; sourceTree = "<group>"; };
+		E76A6AAD187E7CEF0005931A /* loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = loop.c; path = ../libcometd/src/loop.c; sourceTree = "<group>"; };
+		E76A6AAF187E7CEF0005931A /* gthread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gthread.c; sourceTree = "<group>"; };
+		E76A6AB0187E7CEF0005931A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../libcometd/src/main.c; sourceTree = "<group>"; };
+		E76A6AB1187E7CEF0005931A /* msg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = msg.c; path = ../libcometd/src/msg.c; sourceTree = "<group>"; };
+		E76A6AB2187E7CEF0005931A /* transport_long_polling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transport_long_polling.c; path = ../libcometd/src/transport_long_polling.c; sourceTree = "<group>"; };
+		E76A6AB3187E7CEF0005931A /* transport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transport.c; path = ../libcometd/src/transport.c; sourceTree = "<group>"; };
+		E76A6AC7187E80D10005931A /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		E76A6AC9187E81310005931A /* libgmodule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgmodule.framework; path = Frameworks/libgmodule.framework; sourceTree = "<group>"; };
+		E76A6ACA187E81310005931A /* libgobject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgobject.framework; path = Frameworks/libgobject.framework; sourceTree = "<group>"; };
+		E76A6ACB187E81310005931A /* libgthread.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgthread.framework; path = Frameworks/libgthread.framework; sourceTree = "<group>"; };
+		E76A7163187EACA30005931A /* json-builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-builder.h"; path = "include/json-glib/json-builder.h"; sourceTree = "<group>"; };
+		E76A7164187EACA30005931A /* json-debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-debug.h"; path = "include/json-glib/json-debug.h"; sourceTree = "<group>"; };
+		E76A7165187EACA30005931A /* json-enum-types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-enum-types.h"; path = "include/json-glib/json-enum-types.h"; sourceTree = "<group>"; };
+		E76A7166187EACA30005931A /* json-generator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-generator.h"; path = "include/json-glib/json-generator.h"; sourceTree = "<group>"; };
+		E76A7167187EACA30005931A /* json-glib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-glib.h"; path = "include/json-glib/json-glib.h"; sourceTree = "<group>"; };
+		E76A7168187EACA30005931A /* json-gobject-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-gobject-private.h"; path = "include/json-glib/json-gobject-private.h"; sourceTree = "<group>"; };
+		E76A7169187EACA30005931A /* json-gobject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-gobject.h"; path = "include/json-glib/json-gobject.h"; sourceTree = "<group>"; };
+		E76A716A187EACA30005931A /* json-gvariant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-gvariant.h"; path = "include/json-glib/json-gvariant.h"; sourceTree = "<group>"; };
+		E76A716B187EACA30005931A /* json-marshal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-marshal.h"; path = "include/json-glib/json-marshal.h"; sourceTree = "<group>"; };
+		E76A716C187EACA30005931A /* json-parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-parser.h"; path = "include/json-glib/json-parser.h"; sourceTree = "<group>"; };
+		E76A716D187EACA30005931A /* json-path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-path.h"; path = "include/json-glib/json-path.h"; sourceTree = "<group>"; };
+		E76A716E187EACA30005931A /* json-reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-reader.h"; path = "include/json-glib/json-reader.h"; sourceTree = "<group>"; };
+		E76A716F187EACA30005931A /* json-scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-scanner.h"; path = "include/json-glib/json-scanner.h"; sourceTree = "<group>"; };
+		E76A7170187EACA30005931A /* json-types-private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-types-private.h"; path = "include/json-glib/json-types-private.h"; sourceTree = "<group>"; };
+		E76A7171187EACA30005931A /* json-types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-types.h"; path = "include/json-glib/json-types.h"; sourceTree = "<group>"; };
+		E76A7172187EACA30005931A /* json-version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "json-version.h"; path = "include/json-glib/json-version.h"; sourceTree = "<group>"; };
+		E76A7173187EAE540005931A /* libjson-glib-1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjson-glib-1.0.a"; path = "../json-glib/libjson-glib-1.0.a"; sourceTree = "<group>"; };
+		E76A7175187EB1000005931A /* libgio-2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgio-2.0.a"; path = "../../../../opt/local/lib/libgio-2.0.a"; sourceTree = "<group>"; };
 		E775A15F1876C0C700DEF675 /* YammerAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YammerAccountViewController.h; sourceTree = "<group>"; };
 		E775A1601876C0C700DEF675 /* YammerAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YammerAccountViewController.m; sourceTree = "<group>"; };
 		E7AEBBEE1876ADEE0099EDBD /* YammerAccountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YammerAccountView.xib; sourceTree = "<group>"; };
@@ -55,8 +153,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76A7176187EB1000005931A /* libgio-2.0.a in Frameworks */,
+				E76A7174187EAE540005931A /* libjson-glib-1.0.a in Frameworks */,
+				E76A6AC8187E80D10005931A /* libcurl.dylib in Frameworks */,
+				E76A6ACD187E81310005931A /* libgobject.framework in Frameworks */,
 				E71B2C0C1876721F007DEDC4 /* AdiumLibpurple.framework in Frameworks */,
+				E76A6ACC187E81310005931A /* libgmodule.framework in Frameworks */,
 				E71B2BCC18764C15007DEDC4 /* Cocoa.framework in Frameworks */,
+				E76A6ACE187E81310005931A /* libgthread.framework in Frameworks */,
 				E71B2C0F1876721F007DEDC4 /* libpurple.framework in Frameworks */,
 				E71B2C0B1876721F007DEDC4 /* Adium.framework in Frameworks */,
 				E71B2C0D1876721F007DEDC4 /* AIUtilities.framework in Frameworks */,
@@ -70,7 +174,10 @@
 		E71B2BBF18764C15007DEDC4 = {
 			isa = PBXGroup;
 			children = (
+				E76A7162187EAC2B0005931A /* json-glib */,
 				E71B2C1318769E92007DEDC4 /* Resources */,
+				E76A6A8E187E7CC80005931A /* libcometd */,
+				E76A6A76187E7C240005931A /* prplyammer */,
 				E71B2BD118764C15007DEDC4 /* yaydium */,
 				E71B2BCA18764C15007DEDC4 /* Frameworks */,
 				E71B2BC918764C15007DEDC4 /* Products */,
@@ -88,6 +195,9 @@
 		E71B2BCA18764C15007DEDC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E76A7175187EB1000005931A /* libgio-2.0.a */,
+				E76A7173187EAE540005931A /* libjson-glib-1.0.a */,
+				E76A6AC7187E80D10005931A /* libcurl.dylib */,
 				E71B2C051876720B007DEDC4 /* Adium Frameworks */,
 				E71B2BCB18764C15007DEDC4 /* Cocoa.framework */,
 				E71B2BCD18764C15007DEDC4 /* Other Frameworks */,
@@ -139,6 +249,9 @@
 				E71B2C071876721F007DEDC4 /* AdiumLibpurple.framework */,
 				E71B2C081876721F007DEDC4 /* AIUtilities.framework */,
 				E71B2C091876721F007DEDC4 /* libglib.framework */,
+				E76A6AC9187E81310005931A /* libgmodule.framework */,
+				E76A6ACA187E81310005931A /* libgobject.framework */,
+				E76A6ACB187E81310005931A /* libgthread.framework */,
 				E71B2C0A1876721F007DEDC4 /* libpurple.framework */,
 			);
 			name = "Adium Frameworks";
@@ -151,6 +264,149 @@
 				E71B2C1018768FF7007DEDC4 /* yaydium-small.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E76A6A76187E7C240005931A /* prplyammer */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6A85187E7C5D0005931A /* include */,
+				E76A6A77187E7C4F0005931A /* prplyammer.c */,
+				E76A6A78187E7C4F0005931A /* yammer_account.c */,
+				E76A6A79187E7C4F0005931A /* yammer_api.c */,
+				E76A6A7A187E7C4F0005931A /* yammer_chat_connection.c */,
+				E76A6A7B187E7C4F0005931A /* yammer_request.c */,
+				E76A6A7C187E7C4F0005931A /* yammer_response.c */,
+				E76A6A7D187E7C4F0005931A /* yammer_session.c */,
+			);
+			name = prplyammer;
+			sourceTree = "<group>";
+		};
+		E76A6A85187E7C5D0005931A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6A86187E7C5D0005931A /* prplyammer */,
+				E76A6A8D187E7C5D0005931A /* prplyammer.h */,
+			);
+			name = include;
+			path = ../prplyammer/include;
+			sourceTree = "<group>";
+		};
+		E76A6A86187E7C5D0005931A /* prplyammer */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6A87187E7C5D0005931A /* typedef.h */,
+				E76A6A88187E7C5D0005931A /* yammer_account.h */,
+				E76A6A89187E7C5D0005931A /* yammer_api.h */,
+				E76A6A8A187E7C5D0005931A /* yammer_request.h */,
+				E76A6A8B187E7C5D0005931A /* yammer_response.h */,
+				E76A6A8C187E7C5D0005931A /* yammer_session.h */,
+			);
+			path = prplyammer;
+			sourceTree = "<group>";
+		};
+		E76A6A8E187E7CC80005931A /* libcometd */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6A8F187E7CDA0005931A /* include */,
+				E76A6AA1187E7CEF0005931A /* channel.c */,
+				E76A6AA2187E7CEF0005931A /* cometd.c */,
+				E76A6AA3187E7CEF0005931A /* conn.c */,
+				E76A6AA4187E7CEF0005931A /* error.c */,
+				E76A6AA5187E7CEF0005931A /* event.c */,
+				E76A6AA6187E7CEF0005931A /* ext.c */,
+				E76A6AA7187E7CEF0005931A /* exts */,
+				E76A6AAA187E7CEF0005931A /* http.c */,
+				E76A6AAB187E7CEF0005931A /* inbox.c */,
+				E76A6AAC187E7CEF0005931A /* json.c */,
+				E76A6AAD187E7CEF0005931A /* loop.c */,
+				E76A6AAE187E7CEF0005931A /* loops */,
+				E76A6AB0187E7CEF0005931A /* main.c */,
+				E76A6AB1187E7CEF0005931A /* msg.c */,
+				E76A6AB2187E7CEF0005931A /* transport_long_polling.c */,
+				E76A6AB3187E7CEF0005931A /* transport.c */,
+			);
+			name = libcometd;
+			sourceTree = "<group>";
+		};
+		E76A6A8F187E7CDA0005931A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6A90187E7CDA0005931A /* cometd */,
+				E76A6AA0187E7CDA0005931A /* cometd.h */,
+			);
+			name = include;
+			path = ../libcometd/include;
+			sourceTree = "<group>";
+		};
+		E76A6A90187E7CDA0005931A /* cometd */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6A91187E7CDA0005931A /* channel.h */,
+				E76A6A92187E7CDA0005931A /* conn.h */,
+				E76A6A93187E7CDA0005931A /* error.h */,
+				E76A6A94187E7CDA0005931A /* event.h */,
+				E76A6A95187E7CDA0005931A /* ext.h */,
+				E76A6A96187E7CDA0005931A /* exts */,
+				E76A6A99187E7CDA0005931A /* http.h */,
+				E76A6A9A187E7CDA0005931A /* inbox.h */,
+				E76A6A9B187E7CDA0005931A /* json.h */,
+				E76A6A9C187E7CDA0005931A /* loop.h */,
+				E76A6A9D187E7CDA0005931A /* msg.h */,
+				E76A6A9E187E7CDA0005931A /* transport.h */,
+				E76A6A9F187E7CDA0005931A /* transport_long_polling.h */,
+			);
+			path = cometd;
+			sourceTree = "<group>";
+		};
+		E76A6A96187E7CDA0005931A /* exts */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6A97187E7CDA0005931A /* logger.h */,
+				E76A6A98187E7CDA0005931A /* yammer.h */,
+			);
+			path = exts;
+			sourceTree = "<group>";
+		};
+		E76A6AA7187E7CEF0005931A /* exts */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6AA8187E7CEF0005931A /* logger.c */,
+				E76A6AA9187E7CEF0005931A /* yammer.c */,
+			);
+			name = exts;
+			path = ../libcometd/src/exts;
+			sourceTree = "<group>";
+		};
+		E76A6AAE187E7CEF0005931A /* loops */ = {
+			isa = PBXGroup;
+			children = (
+				E76A6AAF187E7CEF0005931A /* gthread.c */,
+			);
+			name = loops;
+			path = ../libcometd/src/loops;
+			sourceTree = "<group>";
+		};
+		E76A7162187EAC2B0005931A /* json-glib */ = {
+			isa = PBXGroup;
+			children = (
+				E76A7163187EACA30005931A /* json-builder.h */,
+				E76A7164187EACA30005931A /* json-debug.h */,
+				E76A7165187EACA30005931A /* json-enum-types.h */,
+				E76A7166187EACA30005931A /* json-generator.h */,
+				E76A7167187EACA30005931A /* json-glib.h */,
+				E76A7168187EACA30005931A /* json-gobject-private.h */,
+				E76A7169187EACA30005931A /* json-gobject.h */,
+				E76A716A187EACA30005931A /* json-gvariant.h */,
+				E76A716B187EACA30005931A /* json-marshal.h */,
+				E76A716C187EACA30005931A /* json-parser.h */,
+				E76A716D187EACA30005931A /* json-path.h */,
+				E76A716E187EACA30005931A /* json-reader.h */,
+				E76A716F187EACA30005931A /* json-scanner.h */,
+				E76A7170187EACA30005931A /* json-types-private.h */,
+				E76A7171187EACA30005931A /* json-types.h */,
+				E76A7172187EACA30005931A /* json-version.h */,
+			);
+			name = "json-glib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,10 +473,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76A6A84187E7C4F0005931A /* yammer_session.c in Sources */,
+				E76A6AC3187E7CEF0005931A /* transport_long_polling.c in Sources */,
 				E775A1611876C0C700DEF675 /* YammerAccountViewController.m in Sources */,
+				E76A6AB9187E7CEF0005931A /* ext.c in Sources */,
 				E71B2BE8187662F6007DEDC4 /* PurpleYammerService.m in Sources */,
+				E76A6AB4187E7CEF0005931A /* channel.c in Sources */,
+				E76A6A81187E7C4F0005931A /* yammer_chat_connection.c in Sources */,
+				E76A6ABB187E7CEF0005931A /* yammer.c in Sources */,
+				E76A6AB5187E7CEF0005931A /* cometd.c in Sources */,
 				E71B2BEB1876657F007DEDC4 /* PurpleYammerAccount.m in Sources */,
+				E76A6AC0187E7CEF0005931A /* gthread.c in Sources */,
+				E76A6A82187E7C4F0005931A /* yammer_request.c in Sources */,
 				E71B2BE3187656D6007DEDC4 /* YaydiumPlugin.m in Sources */,
+				E76A6AB7187E7CEF0005931A /* error.c in Sources */,
+				E76A6AB8187E7CEF0005931A /* event.c in Sources */,
+				E76A6ABE187E7CEF0005931A /* json.c in Sources */,
+				E76A6AC1187E7CEF0005931A /* main.c in Sources */,
+				E76A6ABF187E7CEF0005931A /* loop.c in Sources */,
+				E76A6A80187E7C4F0005931A /* yammer_api.c in Sources */,
+				E76A6ABA187E7CEF0005931A /* logger.c in Sources */,
+				E76A6ABC187E7CEF0005931A /* http.c in Sources */,
+				E76A6AC4187E7CEF0005931A /* transport.c in Sources */,
+				E76A6A7F187E7C4F0005931A /* yammer_account.c in Sources */,
+				E76A6A7E187E7C4F0005931A /* prplyammer.c in Sources */,
+				E76A6ABD187E7CEF0005931A /* inbox.c in Sources */,
+				E76A6AC2187E7CEF0005931A /* msg.c in Sources */,
+				E76A6A83187E7C4F0005931A /* yammer_response.c in Sources */,
+				E76A6AB6187E7CEF0005931A /* conn.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,9 +601,17 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SRCROOT)/Frameworks/libglib.framework/Headers\"",
+					"$(SRCROOT)/../prplyammer/include",
+					"$(SRCROOT)/../libcometd/include",
+					"\"$(SRCROOT)/include",
 				);
 				INFOPLIST_FILE = "yaydium/yaydium-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bremeika/workspace/json-glib",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
@@ -344,9 +632,17 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SRCROOT)/Frameworks/libglib.framework/Headers\"",
+					"$(SRCROOT)/../prplyammer/include",
+					"$(SRCROOT)/../libcometd/include",
+					"\"$(SRCROOT)/include",
 				);
 				INFOPLIST_FILE = "yaydium/yaydium-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/bremeika/workspace/json-glib",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
