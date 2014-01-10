@@ -9,6 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import <AdiumLibpurple/CBPurpleAccount.h>
 
-@interface PurpleYammerAccount : CBPurpleAccount
+@interface PurpleYammerAccount : CBPurpleAccount {
+  NSString *oAuthToken;
+}
+
+- (void)requestYammerAuthorization:(NSString*) token;
+- (void)didSucceedWithToken:(NSString *)token;
 
 @end

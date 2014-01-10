@@ -612,6 +612,7 @@
 					"/Users/bremeika/workspace/json-glib",
 					/opt/local/lib,
 				);
+				OTHER_CFLAGS = "-DPURPLE_STATIC_PRPL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
@@ -643,6 +644,7 @@
 					"/Users/bremeika/workspace/json-glib",
 					/opt/local/lib,
 				);
+				OTHER_CFLAGS = "-DPURPLE_STATIC_PRPL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};

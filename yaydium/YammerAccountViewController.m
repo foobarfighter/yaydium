@@ -7,8 +7,11 @@
 //
 
 #import "YammerAccountViewController.h"
+#import "PurpleYammerAccount.h"
 
 @implementation YammerAccountViewController
+
+@synthesize textField_OAuthToken, button_OAuthConnect;
 
 - (NSView *)setupView
 {
@@ -28,6 +31,18 @@
 - (NSString *)nibName
 {
     return @"YammerAccountView";
+}
+
+- (IBAction)changedPreference:(id)sender
+{
+	if (sender == button_OAuthConnect) {
+    // TODO: This will actually be populated by the OauthView and requestYammerAuthorization
+    // shouldn't take an arg
+		[(PurpleYammerAccount *)account requestYammerAuthorization: [textField_OAuthToken stringValue] ];
+		[button_OAuthConnect setEnabled:NO];
+    
+	} else
+		[super changedPreference:sender];
 }
 
 @end

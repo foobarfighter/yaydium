@@ -10,4 +10,7 @@
 
 @interface YammerAccountViewController : PurpleAccountViewController
 
+@property (assign) IBOutlet NSTextField *textField_OAuthToken;
+@property (assign) IBOutlet NSButton *button_OAuthConnect;
+
 @end

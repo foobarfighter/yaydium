@@ -8,6 +8,7 @@
 
 #import "YaydiumPlugin.h"
 #import "PurpleYammerService.h"
+#import <prplyammer.h>
 
 @implementation YaydiumPlugin
 
@@ -23,7 +24,7 @@
 
 - (void)loadLibpurplePlugin
 {
-    
+  purple_init_yammer_plugin();
 }
 
 - (void)installLibpurplePlugin
