@@ -29,6 +29,12 @@
   return YAMMER_PLUGIN_ID;
 }
 
+/* Specify a host for network-reachability-code purposes */
+- (NSString *)host
+{
+	return @"www.yammer.com";
+}
+
 - (void)requestYammerAuthorization:(NSString*) token
 {
   /*
